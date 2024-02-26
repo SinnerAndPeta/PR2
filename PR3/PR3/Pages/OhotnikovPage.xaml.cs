@@ -45,5 +45,19 @@ namespace PR3.Pages
             // Выведем результат
             textBox3.Text = z.ToString();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            NavigationWindow win = new NavigationWindow();
+            win.Content = new KomovaPage();
+            win.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            NavigationWindow win = new NavigationWindow();
+            win.Content = new MolchanovPage();
+            win.Show();
+        }
     }
 }

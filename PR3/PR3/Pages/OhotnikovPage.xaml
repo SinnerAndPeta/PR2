@@ -16,6 +16,8 @@
         <Button Content="Сложить" HorizontalAlignment="Left" Margin="338,304,0,0" VerticalAlignment="Top" Width="93" FontSize="18" FontWeight="Bold" Click="Button_Click"/>
         <Label Content="Результат" HorizontalAlignment="Left" Margin="583,164,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
         <Label Content="Охотников Дмитрий ИС1-43" HorizontalAlignment="Left" Margin="506,29,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Button Content="Молчанов" HorizontalAlignment="Left" Margin="224,353,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_2"/>
+        <Button Content="Комова" HorizontalAlignment="Left" Margin="496,353,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_1"/>
 
     </Grid>
 </Page>

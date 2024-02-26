@@ -24,5 +24,19 @@ namespace PR3.Pages
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationWindow win = new NavigationWindow();
+            win.Content = new MolchanovPage();
+            win.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            NavigationWindow win = new NavigationWindow();
+            win.Content = new OhotnikovPage();
+            win.Show();
+        }
     }
 }

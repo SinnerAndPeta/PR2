@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PR3.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,29 @@ namespace PR3
         public MainWindow()
         {
             InitializeComponent();
+
+            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationWindow win = new NavigationWindow();
+            win.Content = new MolchanovPage();
+            win.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            NavigationWindow win = new NavigationWindow();
+            win.Content = new KomovaPage();
+            win.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            NavigationWindow win = new NavigationWindow();
+            win.Content = new OhotnikovPage();
+            win.Show();
         }
     }
 }

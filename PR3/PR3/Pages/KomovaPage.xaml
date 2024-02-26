@@ -8,7 +8,14 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="KomovaPage">
 
-    <Grid>
-        
+    <Grid Background="LightCyan">
+        <Label Content="Логин:" HorizontalAlignment="Left" Margin="283,121,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль:" HorizontalAlignment="Left" Margin="283,152,0,0" VerticalAlignment="Top"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="345,189,0,0" VerticalAlignment="Top" Width="130"/>
+        <TextBox HorizontalAlignment="Left" Margin="350,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="348,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Молчанов" HorizontalAlignment="Left" Margin="242,225,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
+        <Button Content="Охотников" HorizontalAlignment="Left" Margin="514,225,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_1"/>
+        <Label Content="Комова А.А." HorizontalAlignment="Left" Margin="491,121,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
     </Grid>
 </Page>

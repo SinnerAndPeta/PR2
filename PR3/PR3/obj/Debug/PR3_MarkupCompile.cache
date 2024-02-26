@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Wp42342\PR2\PR3\PR3\obj\Debug\
+D:\git\pr3\PR2\PR3\PR3\obj\Debug\
 PR3
 none
 false
 DEBUG;TRACE
-C:\Wp42342\PR2\PR3\PR3\App.xaml
-3779050952
+D:\git\pr3\PR2\PR3\PR3\App.xaml
+4185861901
 
-82135211121
-13-1505183044
-MainWindow.xaml;Pages\KomovaPage.xaml;Pages\MolchanovPage.xaml;
+8-746850947
+13-1310406943
+MainWindow.xaml;Pages\KomovaPage.xaml;Pages\MolchanovPage.xaml;Pages\OhotnikovPage.xaml;
 
-True
+False
 
